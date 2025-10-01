@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">Welcome to Catalog Page</div>
+        <div class="header-right">
+            <a href="catalog.html" class="anchor-header">Catalog</a>
+            <a href="cart.html" class="anchor-header">Cart</a>
+            <a href="login.html" class="anchor-header">Logout</a>
+            <a href="filter.html" class="anchor-header">Filters</a>
+        </div>
+    </div>
+
+    <div class="catalog-page">
+        <!-- Product 1 -->
+        <div class="ind-products">
+            <img src="./photos/tab.jpg" alt="Tab" class="prd-img">
+            <div class="prd-info">
+                <h1>Tab</h1>
+                <p>₹66,300</p>
+                <p class="description">Electronic Device</p>
+                <button class="cart-button" onclick="add_to_cart('1','./photos/tab.jpg','Tab','66300')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="ind-products">
+            <img src="./photos/tv.jpg" alt="Tv" class="prd-img">
+            <div class="prd-info">
+                <h1>Tv</h1>
+                <p>₹40,000</p>
+                <p class="description">Electronic Device</p>
+                <button class="cart-button" onclick="add_to_cart('2','./photos/tv.jpg','Tv','40000')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="ind-products">
+            <img src="./photos/shirt.jpg" alt="Shirt" class="prd-img">
+            <div class="prd-info">
+                <h1>Shirt</h1>
+                <p>₹5,000</p>
+                <p class="description">Clothing Product</p>
+                <button class="cart-button" onclick="add_to_cart('3','./photos/shirt.jpg','Shirt','5000')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="ind-products">
+            <img src="./photos/iron_box.jpg" alt="Iron Box" class="prd-img">
+            <div class="prd-info">
+                <h1>Iron Box</h1>
+                <p>₹1,500</p>
+                <p class="description">Electronic Device</p>
+                <button class="cart-button" onclick="add_to_cart('4','./photos/iron_box.jpg','Iron Box','1500')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="ind-products">
+            <img src="./photos/sofa.jpg" alt="Sofa" class="prd-img">
+            <div class="prd-info">
+                <h1>Sofa</h1>
+                <p>₹25,000</p>
+                <p class="description">Furniture</p>
+                <button class="cart-button" onclick="add_to_cart('5','./photos/sofa.jpg','Sofa','25000')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="ind-products">
+            <img src="./photos/shoe.jpg" alt="Shoes" class="prd-img">
+            <div class="prd-info">
+                <h1>Shoes</h1>
+                <p>₹2,500</p>
+                <p class="description">Footwear</p>
+                <button class="cart-button" onclick="add_to_cart('6','./photos/shoe.jpg','Shoes','2500')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="ind-products">
+            <img src="./photos/badminton.jpg" alt="Badminton" class="prd-img">
+            <div class="prd-info">
+                <h1>Badminton</h1>
+                <p>₹1,000</p>
+                <p class="description">Sport Equipment</p>
+                <button class="cart-button" onclick="add_to_cart('7','./photos/badminton.jpg','Badminton','1000')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="ind-products">
+            <img src="./photos/laptop.jpg" alt="Laptop" class="prd-img">
+            <div class="prd-info">
+                <h1>Laptop</h1>
+                <p>₹60,000</p>
+                <p class="description">Electronic Device</p>
+                <button class="cart-button" onclick="add_to_cart('8','./photos/laptop.jpg','Laptop','60000')">Add to cart</button>
+            </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="ind-products">
+            <img src="./photos/mobile.jpg" alt="Mobile" class="prd-img">
+            <div class="prd-info">
+                <h1>Mobile</h1>
+                <p>₹22,000</p>
+                <p class="description">Electronic Device</p>
+                <button class="cart-button" onclick="add_to_cart('9','./photos/mobile.jpg','Mobile','22000')">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">@ 2025 Shopping Cart All rights reserved</div>
+
+    <script src="catalog.js"></script>
+</body>
+</html>

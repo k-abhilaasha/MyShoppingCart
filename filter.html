@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Catalog with Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header-right">
+     <a href="catalog.html"class="anchor-header">Catalog</a>
+  </header>
+
+  <div class="container">
+    <!-- Filters -->
+    <aside class="filter-bar">
+      <h2>Filters</h2>
+
+      <div class="filter-group">
+        <h3>Categories</h3>
+        <label><input type="checkbox" value="Shoes"> Shoes</label>
+        <label><input type="checkbox" value="Clothes"> Clothes</label>
+        <label><input type="checkbox" value="Electronics"> Electronics</label>
+        <label><input type="checkbox" value="Sports Equipment"> Sports Equipment</label>
+      </div>
+
+      <div class="filter-group">
+        <h3>Price</h3>
+        <label><input type="checkbox" data-min="0" data-max="1000"> ₹0 - ₹1000</label>
+        <label><input type="checkbox" data-min="1000" data-max="5000"> ₹1000 - ₹5000</label>
+        <label><input type="checkbox" data-min="5000" data-max="10000"> ₹5000 - ₹10000</label>
+        <label><input type="checkbox" data-min="10000" data-max="100000"> ₹10000 - ₹100000</label>
+      </div>
+    </aside>
+
+    <!-- Catalog -->
+    <main class="catalog-page">
+      <!-- Products injected by JS -->
+    </main>
+  </div>
+
+  <script src="filter.js"></script>
+</body>
+</html>
